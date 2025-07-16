@@ -150,7 +150,8 @@ body {
 }
 
 .cards__image {
-  width: 160px;  height: 160px;
+  width: 160px;
+  height: 160px;
   padding: 60px 40px 43px 40px;
   border-radius: 50%;
 }
@@ -175,6 +176,27 @@ body {
 }
 
 /* ------------------------------------------------- */
+
+/* ----------------- */
+
+.video {
+}
+
+.video__iframes {
+  width: 1050px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+}
+
+/* -----------------  */
 
 .digits {
   padding-top: 100px;
