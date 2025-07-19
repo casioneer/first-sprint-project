@@ -1,3 +1,8 @@
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 body {
   margin: 0;
 }
@@ -280,6 +285,78 @@ body {
 
 .table__cell p.table__text + p.table__text {
   margin-top: 20px;
+}
+
+.khan {
+  background-color: #f2f2f2;
+}
+
+.khan__container {
+  padding-top: 105px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.khan__container > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.khan__quote {
+  width: 790px;
+  margin-top: 50px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+  margin-top: 35px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.khan__quote-author-subline {
+  margin-top: 10px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  padding-top: 68px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.khan__book-pic {
+  padding-right: 48px;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
 }
 
 .feynman {
